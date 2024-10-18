@@ -1,0 +1,116 @@
+//INDEX.HTML
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website KU</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1> Selamat Datang di Website Ku yang sederhana </h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="about">about</a></li>
+                    <li><a href="contact">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="home">
+            <h2>home</h2>
+            <p> Selamat Datang di Halaman Web Saya </p>
+        </section>
+
+        <section id="about">
+            <h2> About </h2>
+            <p>Saya Surya Medi Eka Saputra lulusan SMA Negeri 19 Surabaya tahun 2023. Saya mahasiswa aktif di Universitas Narotama Fakultas Ilmu Komputer di prodi Sistem Informasi. Saya Seorang yang punya rasa ingin tahu yang sangat tinggi serta ingin mempelajari hal-hal yang baru.</p>
+        </section>
+
+
+        <section id="contact">
+            <h2> Contact </h2>
+            <p> Hubungi Contact dibawah ini</p>
+            <form>
+                <input type="text" placeholder="Surya Medi Eka Saputra" required>
+                <input type="email" placeholder="suryamedi1234@gmail.com" required>
+                <textarea placeholder="085708864354" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 website sederhana</p>
+        </footer>
+    </body>
+</html>
+
+//STYLE.CSS
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li  {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    padding: 2rem;
+    margin: 2rem 0;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+//SCRIPT.JS
+document.querySelector('form').addEventListener('submit', function (Event) { })({
+    event, : .preventDefault(),
+    alert();
+});
